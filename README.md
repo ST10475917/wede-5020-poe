@@ -33,3 +33,12 @@ Responsive barbershop website with mobile-first design...
 ### Part 2 Updates - 29 May 2026
 - Fixed CSS path from `/style.css` to `css/style.css`
 - Added responsive meta viewport tag...
+## Responsive Screenshots
+(img/mobile.png.png)
+(img/tablet.png.png)
+(img/deskop.png.png)
+
+## Changes made for Part 2
+- Added media queries for mobile + tablet
+- Made gallery responsive
+- Added navigation links between all pages
