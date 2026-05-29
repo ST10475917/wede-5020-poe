@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Make an enquiry at Supreme Cuts">
+  <title>Enquiry - Supreme Cuts</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>SUPREME CUTS</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Book Your Cut</h2>
+      <p>Tell us what cut you want. We'll handle the rest.</p>
+<p>This form is for demo only - no data will be sent</p>
+      <form action="#" method="post">
+        <label for="name">Full Name *</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="service">Select Service *</label>
+        <select id="service" name="service" required>
+          <option value="">-- Choose a service --</option>
+          <option value="fade">Fade - R120</option>
+          <option value="classic">Classic Cut - R100</option>
+          <option value="beard">Beard Trim - R80</option>
+          <option value="kids">Kids Cut - R70</option>
+          <option value="full">Full Package - R180</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Tell us your preferred date and time..."></textarea>
+
+        <button type="submit">Send Enquiry</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Supreme Cuts Barber Shop. All rights reserved.</p>
+  </footer>
+</body>
+</html>
