@@ -1,61 +1,89 @@
 <!DOCTYPE html>
+<!-- WEDE-5020 POE Part 2 - Supreme Cuts Barber Shop -->
+<!-- Student Name: Njabulo Mhlanga | Student No: ST10475917 -->
+<!-- File: enquiry.html | Purpose: Contact/Enquiry Page | Last Updated: 2026-05-29 -->
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enquiry - Supreme Cuts</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <!-- Viewport meta tag for mobile responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supreme Cuts - Enquiry</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Header section: Contains logo and main navigation -->
   <header>
+    <!-- Logo container -->
+    <div class="logo">
+      <img src="img/download.jpg" alt="Supreme Cuts barber shop logo">
+    </div>
+
+    <!-- Main heading -->
     <h1>SUPREME CUTS</h1>
+
+    <!-- Navigation menu - semantic nav tag -->
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html">Contact</a></li>
         <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main class="container">
-    <section>
-      <h2>Book Your Cut</h2>
-      <p>Tell us what cut you want. We'll handle the rest.</p>
-<p>This form is for demo only - no data will be sent</p>
+  <!-- Main content area - semantic main tag -->
+  <main>
+    <div class="content">
+      <h2>Book Your Appointment</h2>
+      <p>Have a question or want to book a cut? Fill in the form below and we’ll get back to you within 24 hours. Walk-ins are also welcome Monday to Friday 8am-6pm.</p>
+
+      <!-- Enquiry form - uses proper form tags for Technical Requirements -->
       <form action="#" method="post">
-        <label for="name">Full Name *</label>
-        <input type="text" id="name" name="name" required>
+        <!-- Name input field -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Njabulo Mhlanga">
 
-        <label for="email">Email Address *</label>
-        <input type="email" id="email" name="email" required>
+        <!-- Email input field -->
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required placeholder="you@email.com">
 
-        <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" name="phone">
+        <!-- Phone input field -->
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required placeholder="081 234 5678">
 
-        <label for="service">Select Service *</label>
+        <!-- Service selection -->
+        <label for="service">Select Service:</label>
         <select id="service" name="service" required>
           <option value="">-- Choose a service --</option>
-          <option value="fade">Fade - R120</option>
-          <option value="classic">Classic Cut - R100</option>
+          <option value="haircut">Haircut - R120</option>
           <option value="beard">Beard Trim - R80</option>
-          <option value="kids">Kids Cut - R70</option>
-          <option value="full">Full Package - R180</option>
+          <option value="combo">Haircut + Beard - R180</option>
+          <option value="shave">Hot Towel Shave - R150</option>
         </select>
 
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" placeholder="Tell us your preferred date and time..."></textarea>
+        <!-- Message textarea -->
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Tell us what style you want or any questions..."></textarea>
 
+        <!-- Submit button -->
         <button type="submit">Send Enquiry</button>
       </form>
-    </section>
+
+      <p><strong>Contact Info:</strong><br>
+      Address: 123 Main Street, Durban CBD<br>
+      Phone: 031 555 0123<br>
+      Email: info@supremecuts.co.za</p>
+    </div>
   </main>
 
+  <!-- Footer section - semantic footer tag -->
   <footer>
-    <p>© 2025 Supreme Cuts Barber Shop. All rights reserved.</p>
+    <p>&copy; 2026 Supreme Cuts Barber Shop. All rights reserved.</p>
+    <p>Contact: 031 555 0123 | info@supremecuts.co.za</p>
+    <p>Developed by: Njabulo Mhlanga | ST10475917</p>
   </footer>
 </body>
 </html>

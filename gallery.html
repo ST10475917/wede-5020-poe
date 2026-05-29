@@ -1,49 +1,93 @@
 <!DOCTYPE html>
+<!-- WEDE-5020 POE Part 2 - Supreme Cuts Barber Shop -->
+<!-- Student Name: Njabulo Mhlanga | Student No: ST10475917 -->
+<!-- File: gallery.html | Purpose: Gallery Page | Last Updated: 2026-05-29 -->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <!-- Viewport meta tag for mobile responsiveness -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Haircut Gallery | Fresh Cuts</title>
+  <title>Supreme Cuts - Gallery</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+  <!-- Header section: Contains logo and main navigation -->
   <header>
-    <h1>Fresh Cuts Gallery ✂️</h1>
-    <p>Check out our latest styles</p>
+    <!-- Logo container -->
+    <div class="logo">
+      <img src="img/download.jpg" alt="Supreme Cuts barber shop logo">
+    </div>
+
+    <!-- Main heading -->
+    <h1>SUPREME CUTS</h1>
+
+    <!-- Navigation menu - semantic nav tag -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <div class="gallery">
-    <div class="gallery-item">
-      <img src="img/cut1.jpg.jpeg" alt="Fade haircut">
-      <p>Clean Fade</p>
-    </div>
-    
-    <div class="gallery-item">
-      <img src="img/cut2 .jpg.webp" alt="Barber cutting hair">
-      <p>Classic Cut</p>
-    </div>
-    
-    <div class="gallery-item">
-      <img src="img/cut3.jpg.webp" alt="Line up">
-      <p>Sharp Lineup</p>
-    </div>
-    
-    <div class="gallery-item">
-      <img src="img/cut4.jpg.webp" alt="Scissors work">
-      <p>Scissor Cut</p>
-    </div>
-    
-    <div class="gallery-item">
-      <img src="img/cut5.jpg.webp" alt="Professional barber">
-      <p>Pro Style</p>
-    </div>
-    
-    <div class="gallery-item">
-      <img src="img/cut6.jpg.webp" alt="Clipper fade">
-      <p>Low Fade</p>
-    </div>
-  </div>
+  <!-- Main content area - semantic main tag -->
+  <main>
+    <div class="content">
+      <h2>Our Work Gallery</h2>
+      <p>Browse our portfolio of precision cuts and modern styles. Each haircut is crafted by our experienced barbers using premium products and techniques. From classic tapers to sharp skin fades and detailed beard work, we deliver excellence on every client. Your look, your confidence, our specialty.</p>
 
+      <!-- Gallery grid container -->
+      <div class="gallery-grid">
+        <!-- Gallery item 1 -->
+        <div class="gallery-item">
+          <img src="img/cut1.jpg.jpeg" alt="Skin fade haircut with sharp line up design">
+          <p>Skin Fade + Line Up</p>
+        </div>
+        
+        <!-- Gallery item 2 -->
+        <div class="gallery-item">
+          <img src="img/download.jpg" alt="Professional beard trim and shape up">
+          <p>Beard Trim & Shape</p>
+        </div>
+        
+        <!-- Gallery item 3 -->
+        <div class="gallery-item">
+          <img src="img/cut7.jpg" alt="Classic taper haircut for men">
+          <p>Classic Taper Cut</p>
+        </div>
+        
+        <!-- Gallery item 4 -->
+        <div class="gallery-item">
+          <img src="img/cut4.jpg.webp" alt="High top fade hairstyle modern look">
+          <p>High Top Fade</p>
+        </div>
+        
+        <!-- Gallery item 5 -->
+        <div class="gallery-item">
+          <img src="img/cut5.jpg.webp" alt="Buzz cut with custom design pattern">
+          <p>Buzz Cut + Design</p>
+        </div>
+        
+        <!-- Gallery item 6 -->
+        <div class="gallery-item">
+          <img src="img/cut6.jpg.webp" alt="Traditional hot towel shave service">
+          <p>Hot Towel Shave</p>
+        </div>
+      </div>
+
+      <p>Ready for your transformation? Book now through our <a href="enquiry.html" style="color: #c0a050;">Enquiry Form</a> or call 031 555 0123. Walk-ins welcome Mon-Fri.</p>
+    </div>
+  </main>
+
+  <!-- Footer section - semantic footer tag -->
+  <footer>
+    <p>&copy; 2026 Supreme Cuts Barber Shop. All rights reserved.</p>
+    <p>Contact: 031 555 0123 | info@supremecuts.co.za</p>
+    <p>Developed by: Njabulo Mhlanga | ST10475917</p>
+  </footer>
 </body>
 </html>
